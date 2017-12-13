@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="bmu.in.bmuapp.BookDefine">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bargraph"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:id="@+id/lay1">
+
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:onClick="cse"
+            android:clickable="true"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/cse"/>
+
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/ecepng"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay1"
+        android:text="\t \t CSE                ECE"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay1"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:id="@+id/lay2">
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:clickable="false"
+            android:src="@drawable/me"/>
+
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/civil"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay2"
+        android:text="MECHANICAL   CIVIL"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay2"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:id="@+id/lay3">
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/bba"/>
+
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/bcom"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay3"
+        android:text="\t \t BBA                BCOM"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay3"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:id="@+id/lay4">
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/mba"/>
+
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/other"/>
+
+    </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lay4"
+            android:text="\t \t MBA               OTHERS"
+            android:textSize="30dp"
+            android:textColor="@android:color/black"/>
+
+</RelativeLayout>
+</ScrollView>

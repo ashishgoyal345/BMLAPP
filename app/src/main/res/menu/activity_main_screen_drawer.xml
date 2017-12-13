@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/courses"
+            android:title="Courses" />
+        <item
+            android:id="@+id/nav_attandance"
+            android:icon="@drawable/attendance"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/nav_helpdesk"
+            android:icon="@drawable/helpdesk"
+            android:title="HelpDesk Service" />
+        <item
+            android:id="@+id/nav_clubs"
+            android:icon="@drawable/clubs"
+            android:title="Clubs" />
+        <item
+            android:id="@+id/lib_managment"
+            android:icon="@drawable/library"
+            android:title="Library Management"/>
+        <item
+            android:id="@+id/fac_info"
+            android:icon="@drawable/fac_info"
+            android:title="Faculty Info" />
+        <item
+            android:id="@+id/mess"
+            android:icon="@drawable/mess"
+            android:title="Mess Menu"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/settings"
+                android:title="Settings" />
+
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/about"
+                android:title="About Bml" />
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bmu.in.bmuapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permissions.NETWORK_ACCESS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WelcomeActivity" />
+        <activity
+            android:name=".LoginStudent"
+            android:label="Student Login"
+            android:parentActivityName=".WelcomeActivity" />
+        <activity
+            android:name=".MainScreen"
+            android:label="@string/title_activity_main_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginStaff"
+            android:label="Faculty Login"
+            android:parentActivityName=".WelcomeActivity" />
+        <activity
+            android:name=".aboutus"
+            android:label="About Us"
+            android:parentActivityName=".MainScreen" />
+        <activity
+            android:name=".AttendanceNishant"
+            android:label="Attandance"
+            android:parentActivityName=".MainScreen" />
+        <activity
+            android:name=".clubs"
+            android:label="Clubs"
+            android:parentActivityName=".MainScreen" />
+        <activity
+            android:name=".culinary_club"
+            android:hardwareAccelerated="true"
+            android:label="Culinary Club"
+            android:parentActivityName=".clubs"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".clubs" />
+        </activity>
+        <activity
+            android:name=".masterchef2k17"
+            android:label="Masterchef 2017"
+            android:parentActivityName=".culinary_club" />
+        <activity
+            android:name=".MessMenu"
+            android:parentActivityName=".MainScreen" />
+        <activity
+            android:name=".sodexoMess"
+            android:parentActivityName=".MessMenu" />
+        <activity
+            android:name=".dcafeMess"
+            android:parentActivityName=".MessMenu" />
+        <activity
+            android:name=".FacultyMain"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".guest"
+            android:parentActivityName=".WelcomeActivity" />
+        <activity
+            android:name=".courses"
+            android:label="Courses"
+            android:parentActivityName=".MainScreen" />
+        <activity
+            android:name=".dgtl_img_pro"
+            android:label="Digital Image Processing"
+            android:parentActivityName=".courses" />
+        <activity
+            android:name=".cloud_computing"
+            android:label="Cloud Computing"
+            android:parentActivityName=".courses" />
+        <activity
+            android:name=".distributed_systems"
+            android:label="Distributed System"
+            android:parentActivityName=".courses" />
+        <activity
+            android:name=".innovation"
+            android:label="IED"
+            android:parentActivityName=".courses" />
+        <activity
+            android:name=".internetofthings"
+            android:label="IOT"
+            android:parentActivityName=".courses" />
+        <activity
+            android:name=".microprocessor"
+            android:label="MBSD"
+            android:parentActivityName=".courses" />
+        <activity
+            android:name=".help_desk"
+            android:label="Helpdesk Service"
+            android:parentActivityName=".MainScreen" />
+        <activity
+            android:name=".faculty_info"
+            android:label="Faculty Available"
+            android:parentActivityName=".MainScreen" />
+        <activity
+            android:name=".brij"
+            android:label="Brij Bihari Dubey"
+            android:parentActivityName=".faculty_info" />
+        <activity
+            android:name=".maheswar"
+            android:label="Maheshwar Dwidey"
+            android:parentActivityName=".faculty_info" />
+        <activity
+            android:name=".barman"
+            android:label="Dr.Sanmita Barman"
+            android:parentActivityName=".faculty_info" />
+        <activity
+            android:name=".jaskiran"
+            android:label="Jaskiran"
+            android:parentActivityName=".faculty_info" />
+        <activity
+            android:name=".kalluri"
+            android:label="Vinayak Kalluri"
+            android:parentActivityName=".faculty_info" />
+        <activity
+            android:name=".richa"
+            android:label="RIcha Sharma"
+            android:parentActivityName=".faculty_info" />
+        <activity
+            android:name=".rishi"
+            android:label="Dr. Rishi Asthana"
+            android:parentActivityName=".faculty_info" />
+        <activity
+            android:name=".shohrab"
+            android:label="Shoharab "
+            android:parentActivityName=".faculty_info" />
+        <activity
+            android:name=".swati"
+            android:label="Dr. Swati Jha"
+            android:parentActivityName=".faculty_info" />
+        <activity
+            android:name=".ziya"
+            android:label="Dr. Ziya Uddin"
+            android:parentActivityName=".faculty_info" />
+        <activity
+            android:name=".NearestFaci"
+            android:label="Nearest Facilities"
+            android:parentActivityName=".MainScreen" />
+        <activity
+            android:name=".LibraryMan"
+            android:label="KRC-Library"
+            android:parentActivityName=".MainScreen" />
+        <activity
+            android:name=".IEEE"
+            android:label="IEEE"
+            android:parentActivityName=".LibraryMan" />
+        <activity
+            android:name=".Emerlad"
+            android:label="Emerald"
+            android:parentActivityName=".LibraryMan" />
+        <activity
+            android:name=".SAGE"
+            android:label="SAGE"
+            android:parentActivityName=".LibraryMan" />
+        <activity
+            android:name=".PROQUEST"
+            android:label="Proquest"
+            android:parentActivityName=".LibraryMan" />
+        <activity
+            android:name=".JGATE"
+            android:label="JGATE"
+            android:parentActivityName=".LibraryMan" />
+        <activity
+            android:name=".EBSCO"
+            android:label="EBSCO"
+            android:parentActivityName=".LibraryMan" />
+        <activity
+            android:name=".BookDefine"
+            android:label="Course Wise BOOK"
+            android:parentActivityName=".LibraryMan" />
+        <activity
+            android:name=".CSEBOOKS"
+            android:label="Computer Science And Engenerring"
+            android:parentActivityName=".BookDefine" />
+        <activity
+            android:name=".ashish"
+            android:label="Ashish Goyal"
+            android:parentActivityName=".FacultyMain" />
+        <activity
+            android:name=".nishant"
+            android:label="Nishant Sharma"
+            android:parentActivityName=".FacultyMain" />
+        <activity android:name=".sodexomenu" />
+        <activity
+            android:name=".faculty_courses"
+            android:label="My Courses"
+            android:parentActivityName=".FacultyMain" />
+        <activity android:name=".cul_photoalbum" />
+        <activity
+            android:name=".pacclub"
+            android:hardwareAccelerated="true"
+            android:label="Pac Club"
+            android:parentActivityName=".clubs"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".clubs" />
+            >
+        </activity>
+        <activity android:name=".fulltimetable" />
+        <activity android:name=".sem1" />
+        <activity android:name=".sem2" />
+        <activity android:name=".sem3" />
+        <activity android:name=".sem4" />
+        <activity android:name=".sem5" />
+        <activity android:name=".SundayMenu" />
+        <activity android:name=".MondayMenu" />
+        <activity android:name=".TuesdayMenu" />
+        <activity android:name=".WednesdayMenu" />
+        <activity android:name=".ThursdayMenu" />
+        <activity android:name=".FridayMenu" />
+        <activity android:name=".SaturdayMenu" />
+        <activity android:name=".coursesSem5" />
+        <activity android:name=".guestMain"></activity>
+    </application>
+
+</manifest>

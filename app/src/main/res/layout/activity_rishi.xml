@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="0.94"
+            card_view:cardBackgroundColor="#ffffff"
+            card_view:cardCornerRadius="15dp"
+            card_view:contentPadding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dr_rishi_asthana"
+                    app:civ_border_color="@android:color/white"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="DR. RISHI ASTHANA"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Designation: Associate Professor"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Department:  MATHS"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Academic Qualification: Doctorate in mathematics from IIT, Roorkee and Master of Science and Bachelor of Science from Banaras Hindu University, Varanasi."
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Dr. Rishi Asthana received his Doctorate in mathematics from IIT, Roorkee and his Master of Science and Bachelor of Science from Banaras Hindu University, Varanasi. Before joining BMU, he taught and conducted research at ICFAI University, Dehradun, Mangalayatan University, Aligarh and Galgotias University, Greater Noida.
+
+Dr. Asthana’s research interest is hydrodynamic stability. He is also interested in computational fluid dynamics (CFD) and flow-through porous media. His research has been presented at international conferences like International Conference on Advances in Renewable Energy, MANIT Bhopal, and the International Conference on Fluid Mechanics and Fluid Power, FMFP-2010, IIT Chennai; and been published in journals such as International Journal of Heat and Mass Transfer, International Journal of Engineering Sciences, and the Journal of Engineering Mathematics. Dr. Asthana has also reviewed several papers in the areas of hydrodynamic stability, heat and mass transfer, and capillary instability. Outside of work, his interests include travelling, watching cricket and listening to music."
+                    tools:ignore="HardcodedText" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

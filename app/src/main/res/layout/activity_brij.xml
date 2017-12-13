@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:ignore="ScrollViewSize">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="0.92"
+            card_view:cardBackgroundColor="#ffffff"
+            card_view:cardCornerRadius="15dp"
+            card_view:contentPadding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/brij"
+                    app:civ_border_color="@android:color/white"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="MR. BRIJ BIHARI DUBEY"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Designation: Assistant Professor"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Department:CSE"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Academic Qualification: Ph.D. from NIT Hamirpur (H.P.).  B.Tech. degree in Computer Science and Engineering from Sri Ram Murti College of Engineering and Technology Bareilly, and B.Sc. degree from Ram Manohar Lohia University, Uttar Pradesh."
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.80"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Mr. Brij Bihari Dubey is a faculty member in the Computer Science, School of Engineering and Technology (SOET). He has submitted his Ph.D. thesis in ad-hoc networks to Department of Computer Science and Engineering, NIT Hamirpur (H.P.) India. Previously, he received his M.Tech. degree from National Institute of Technology Hamirpur in 2011, B.Tech. degree in Computer Science and Engineering from Sri Ram Murti College of Engineering and Technology Bareilly, affiliated to Uttar Pradesh Technical University, and B.Sc. degree from Ram Manohar Lohia University, Uttar Pradesh, India. He has also qualified GATE (2009 and 2012) and UGC-NET (2013).
+
+Prior to joining BML University, he worked as guest Lecturer in Department of Computer Science and Engineering in National Institute of Technology Hamirpur (H.P. from 2011 to 2013). His teaching experience includes languages like C, Python, etc. and subjects like Microprocessor, Computer Graphics, Cluster and Grid Computing, and Mobile Databases, etc. His industry interest includes working with an open source organization in Bangalore for a year.
+
+He has attended and presented research papers in National, International Conferences, and published papers in National, International Journals. His research interest includes wireless networks, distributed systems, Internet of Things and mobile computing, with a focus on vehicular ad-hoc networks. He has received best paper award in National Conference AETM-2016 held in Maharishi Markandeshwar University Mullana – Ambala, Harayana. He has participated in several workshops conducted on Cloud computing and Matlab, etc.
+
+Apart from his professional interests, his personal interests include playing badminton, chess and harmonium on classical music. He is innate painter and sketcher. His literary interest rendered him to write nearly 200 poems of various moods and many of these have been published in several magazines, and recited by him on various FM radio stations. He also enjoys reading motivational books."
+                    tools:ignore="HardcodedText" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

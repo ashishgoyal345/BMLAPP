@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view3"
+            android:layout_margin="5dp"
+            android:layout_weight="0.94"
+            android:backgroundTint="@color/cardview_light_background"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="392dp"
+            card_view:cardBackgroundColor="#ffffff"
+            card_view:contentPadding="5dp"
+            card_view:cardCornerRadius="15dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/nishant"
+                    app:civ_border_color="@android:color/white"
+                    app:civ_border_width="2dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Nishant Sharma"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="EMAIL: nishant.sharma.14cse@bml.edu.in"
+                    android:autoLink="web|email"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="PHONE: 8198945416 "
+                    android:autoLink="phone"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    android:id="@+id/textView3"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Department  : CSE "
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Semester  :   VI"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="CGPA  :  6.8"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

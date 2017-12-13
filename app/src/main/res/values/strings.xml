@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">BMU APP</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="aboutus1">Founded by The Hero Group, BML Munjal University (BMU) is a not-for-profit initiative offering undergraduate and post-graduate courses in management (MBA and BBA) and undergraduate courses in engineering (BTech) and commerce (BCom (Hons)). The University has been founded with the objective of transforming higher education in India by creating a world-class teaching and learning environment. The 50-acre, fully residential and co-educational university has been notified under the Haryana State Private Universities Act, 2006.</string>
+    <string name="aboutus2">Named after the chairman and founder of the Hero Group, Brijmohan Lall Munjal, BMU is engaged in creating, preserving and imparting internationally benchmarked knowledge and skills to a diverse community of students from across the world. The Hero Group is a US$ 5 billion group which includes Hero MotoCorp – the world’s largest two-wheeler manufacturer.</string>
+    <string name="aboutus3">BMU is mentored by Imperial College London, the 108-year old University that is currently ranked 9th in the QS World University rankings (2016-2017).</string>
+    <string name="aboutus4">The campus is located at the 67th KM stone on NH-8, District Gurgaon, Haryana, about 50 km from New Delhi International Airport.</string>
+    <string name="mastechef1">Masterchef 2017 is the flagship event of 67th mlestone our very ow technical cultural and managemnt fest . In this 16 teams including our bmu team participated . and we have 3 rounds  </string>
+    <string name="masterchefabout">MasterChef is the pinnacle form of Gourmet competition held in recent years. Here, at BML Munjal University, we try to emulate and assimilate all the various types of aspects of art and culture in our road to development and Progress."\n" "\n" This was an inter college event where teams would compete with each other to prove their skills and talents in to find out who’s dominant in world of cuisine. On 3 rd of March 2017, the competition MasterChef was set in motion. After Judges sharing their experience with the 8 teams , there was Round 1 that was a quiz based on cooking arena. It was an intellectual and mind focusing competition.All teams with great knowledge and wisdom bravely faced the questions and answered them accurately .With such force and improvisation, around 7 teams qualified for Round 2.</string>
+    <string name="winnermch1"> 1st - BHM, Amity University,Noida "\n" 2nd - BML Munjal University "\n" 3rd - Eco kart team from Kerala</string>
+    <string name="prizemasterchef">1st prize - 10,000 voucher from Sodexo + gift hamper &amp; certificate from BMU Culinary Club + certificates from university and Compass group."\n" "\n" 2nd prize - 7,000 voucher from Sodexo + certificates from BMU Culinary Club and Compass group. "\n" "\n" 3rd prize - 5,000 voucher from Sodexo + certificates from BMU Culinary Club &amp; Compass group.</string>
+    <string name="sodexo_breakfast">------------------------------"\n" Milk "\n" Coffee "\n" Tea "\n" Cornflakes "\n" Parantha</string>
+    <string name="sodexo_lunch">------------------------------"\n" Yellow dal"\n" Soya Chap "\n" Arbi Masala "\n" Raita "\n" Roti</string>
+
+
+    <string name="dip">At the end of the course the students should be able to understand the fundamentals behind formation - capturing of images, processing and analyzing digital images. They will be able to understand the concept of image compression and multi-resolution images. They will have an understanding of where digital images are used in real-life applications and they will be able to apply their knowledge in implementing programs involving digital image processing.</string>
+    <string name="cc">This course is designed for Third Year Engineering students. The aim of the course is to set students at the forefront of understanding on Cloud Computing Technology and to help them build their skills to develop large-scale industry standard applications using cloud platforms and tools. With this course, students can gain a solid knowledge of cloud computing and the framework for using this knowledge in diverse applications.</string>
+    <string name="mbsd">Knowledge of the structure, organization, operation and interconnection of computerized systems, the basics of programming, and its application for solving problems of engineering.</string>
+    <string name="ds">The course aims at making students aware of different types of distributed systems and their trends, as well as an understanding of the principles, techniques, challenges and practices in the design and implementation of distributed systems. The course discusses in details various communication protocols and algorithms required to implement distributed systems.</string>
+    <string name="ied">·Helping students examine their entrepreneurial attributes and innovation insight.
+
+·The major emphasis of the course will be on creating a learning system through which students can acquaint themselves with the special challenges of starting new ventures and introducing new product and service ideas.
+
+·Help students review large number of successful cases bring learning insight and develop marketable business plan.</string>
+    <string name="iot"> The aim of this course "Internet of Things (IoT)” is to practically visualise real world problems, analyse it and then design the solution for that problem using smart components such as sensors.  </string>
+
+
+    <string name="attendance_grade_33_39">Attendance Grade : 33/39</string>
+    <string name="grade_84_62">Grade : 84.62%</string>
+    <string name="absent_6">Absent : 6</string>
+    <string name="present_33">Present : 33</string>
+    <string name="sessions_completed_39">Sessions Completed : 39</string>
+    <string name="subject_digital_image_processing">SUBJECT: DIGITAL IMAGE PROCESSING</string>
+
+
+    <string name="AI"> The course aims at introducing the wide spectrum of Artificial Intelligence to students, and taking some important topics in depth. The course aims at making students understand that artificial intelligence is about finding innovative and practical solutions to otherwise difficult problems like making intelligent decisions, game playing, expert systems, knowledge representation and understanding, information retrieval.</string>
+    <string name="CRYPTO">The goal of this course PCS is to understand the principles and practice of cryptography algorithms and fundamentals of security protocols and technics. It covers cryptography, network-based security threats and vulnerabilities, and practical solutions to system and network security.</string>
+    <string name="CG">The aim of this course Computer Graphics is to introduce the concepts of computer graphics through theoretical, algorithmic and advanced modeling aspects. This course also covers part of OpenGL for graphics. After successful completion of the course student should be able to apply the concepts and techniques to various problem domain and visualization of data sets and processes</string>
+    <string name="CONT_CH">This course is focused to analyze major sociopolitical problems we encounter both locally and globally. Students will engage themselves in identifying various social and political issues which exist and the primary reasons for those issues. The course will also discuss feasible solutions on collectively defined basis. We will examine their causes, effects and discuss potential policy remedies. In this course we will apply rigorous political and sociological concepts and theories to the world around us.</string>
+    <string name="FM"></string>
+    <string name="NDT">Main aim of the course is to provide basic understanding about the basic principles of various NDT Techniques, importance of NDT, applications, and limitations of NDT techniques.</string>
+    <string name="GC">Good citizenry is the course designed to highlight the role of "ethicsâ€ in our life. The course outlines the ethical dilemmas faced by citizens at different walks of life. The course guides students to undertake ethical decision-making in all fields. Furthermore, the course is designed to delve deeper into the ideas of citizenship in a globalized world where one faces constant conflict of identities. It becomes imperative for everyone to choose the right path. This course will help students in their road to becoming more responsible and ethical citizens.</string>
+    <string name="snps"><![CDATA[Selling & Negotiation aims to provide a holistic understanding of the function, and the strategies developed by successful salespeople across industries. Students will comprehend and appreciate the intricacies of selling products and services offering both tangible and intangible benefits to end customers and consumers. They will learn to identify the challenges that emerge from this function and the strategies required to tackle the same.]]></string>
+    <string name="sco">The main goal of soft computing is aim to exploit tolerance for imprecision, uncertainty and partial truth to achieve tractability, robustness and low solution cost.</string>
+    <string name="software_engineering">The course aims at making students understand and appreciate the fact that programming is a part of software development, and that there is a lot more to software development. The students are expected to learn and understand Software Engineering concepts and techniques that are relevant to the design and development of software systems.</string>
+    <string name="computer_networks">This is an introductory undergraduate course on Computer Networks. The focus will be on the suite of protocols used in the Internet. The course will cover protocols at the Application, Transport, Network, Data link, as well as Physical layers. The aim is to develop a strong understanding of the core concepts of computer networks.</string>
+    <string name="python">This is an introductory undergraduate course on Python Programming. The goal of the course is to first introduce students to the in depth fundamentals of Python from the basics and providing hands-on experience using Python to develop applications, automate administrative tasks and integrate systems effectively.</string>
+    <string name="information_retrieval">The aim of the Information Retrieval course is to understand and apply the techniques and models required for extracting relevant information from a large body of text that may be spread over the internet or other digital repositories.</string>
+
+
+</resources>

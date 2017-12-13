@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/timetabl"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_margin="5dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="15dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:text="Current Class:"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15sp"
+                        android:textStyle="bold|italic"
+                        android:typeface="serif" />
+
+                    <TableRow
+                        android:id="@+id/r"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#444"></TableRow>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="     SECTION                         TIME                            ROOM "              />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="match_parent"
+                        android:text="        CSE                  10:00 a.m - 10:50 a.m           GA207"
+                        />
+
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_margin="5dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="15dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:text="Next Class:"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15sp"
+                        android:textStyle="bold|italic"
+                        android:typeface="serif" />
+
+                    <TableRow
+                        android:id="@+id/hr"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#444"></TableRow>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="     SECTION                         TIME                            ROOM "              />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="match_parent"
+                        android:text="        ME-1               1:00 p.m - 1:50 p.m              CP-Lab 1"
+                        />
+
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_margin="5dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="15dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:text="See Full Schedule!"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15sp"
+                        android:textStyle="bold|italic"
+                        android:typeface="serif" />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmer_view_container"
+            android:layout_width="match_parent"
+
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center"
+                android:hint="THE FUTURE OF THE WORLD IS IN MY CLASSROOM TODAY."
+                android:textAllCaps="true"
+
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:typeface="serif"
+                android:visibility="visible">
+
+            </TextView>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

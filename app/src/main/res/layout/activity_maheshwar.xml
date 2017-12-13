@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="0.94"
+            card_view:cardBackgroundColor="#ffffff"
+            card_view:cardCornerRadius="15dp"
+            card_view:contentPadding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/maheshwardwivedy"
+                    app:civ_border_color="@android:color/white"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="DR. MAHESHWAR DWIVEDI"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Designation: Associate Professor"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Department:  MECHANICAL"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Academic Qualification: BTech from CET-Bhubaneswar,  MTech in production engineering from NIT-Rourkela and a PhD in industrial engineering from BITS-Pilani."
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Dr Dwivedy received his BTech in mechanical engineering from CET-Bhubaneswar in 1999, MTech in production engineering from NIT-Rourkela in 2005 and a PhD in industrial engineering from BITS-Pilani in 2014. He has been teaching as a lecturer at BITS, Pilani for over nine years. His research focuses on sustainability studies through systems approaches such as life-cycle assessment to model technological progress and product diffusion. Dr. Dwivedy is interested in the life-cycle of electronic goods and, ultimately the waste generated with special focus on the environmental benefits and economic potential of a circular and green economy.
+
+Prof. Dwivedy is a leading researcher on electronic waste in India. He is the author of several research articles in very high impact peer-reviewed journals, including the much talked about article “An investigation into e-waste flows in India” in the Journal of Cleaner Production (JCLP). The JCLP article laid the theoretical foundations for the dynamic assessment of e-waste impacts on different e-waste take back policy instruments. One of the key findings of his research is that the number of computer inventory in India will cross that of the U.S by 2018 and is expected to double by the year 2022. He is also a member of 3R (Reduce-Reuse-Recycle) research inventory compiled by Asian Institute of Technology, Bangkok. His work has been covered in media such as Urban-Media Networks and Media and Global Environmental Conflicts. His current research interest is in applying differential game theory and finite dimensional variational inequalities to study the impact of e-waste take back on the profitability of manufacturers.
+
+Prof. Dwivedy has taught several undergraduate and post-graduate courses on computer aided manufacturing, optimization, operations research, computational fluid dynamics and advanced engineering mathematics. He has considerable experience in graduate mentoring of students in the area of advanced mathematical computation. Prof. Dwivedy balances his spare time by consistently engaging and mentoring academically weak students to foster the mentee’s professional, academic and personal development. He also actively shares his computational skills in several online Matlab and CFD forums. He enjoys playing basketball and table-tennis, when he gets the time."
+                    tools:ignore="HardcodedText" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

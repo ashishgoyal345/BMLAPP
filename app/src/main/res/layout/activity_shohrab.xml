@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:ignore="ScrollViewSize">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="0.94"
+            card_view:cardBackgroundColor="#ffffff"
+            card_view:cardCornerRadius="15dp"
+            card_view:contentPadding="5dp"
+            tools:ignore="InefficientWeight">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/shohrab"
+                    app:civ_border_color="@android:color/white"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="DR. SOHRAB HOSSAIN SHAIKH"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Designation: Assistant Professor"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Department:CSE"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:targetApi="lollipop"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Academic Qualification: Ph.D. and M.Tech degree from University of Calcutta."
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Dr. Soharab Hossain Shaikh is an Assistant Professor in the Department of Computer Science and Engineering.
+
+He received his PhD degree from University of Calcutta. His area of specialization is Computer Vision.
+
+Prior to joining BMU, Dr. Shaikh was a faculty member at NIIT University, Neemrana. He also taught at the A.K.Choudhury School of Information Technology, University of Calcutta, for six years.
+
+Dr. Shaikh secured the first rank at University of Calcutta in his Master of Technology programme. After completing his M.Tech, he received a fellowship from the Italian Ministry of Education for Universities and Research (MIUR) for pursuing research at Ca’ Foscari, University of Venice, Italy.
+
+Dr. Shaikh is also the recipient of the TEQIP travel grant from the University of Calcutta, and visited AGH University of Science and Technology, Krakow, Poland. He has participated in a number of international conferences held in both India and abroad. Dr. Shaikh also qualified for the National Eligibility Test (NET) for lectureship.
+
+His area of research is Computer Vision and Image Processing. He has worked on object detection andcategorization and biometrics. He has twenty publications in international journals and conferences.
+
+Dr. Shaikh jointly holds a US patent. He has co-authored two books published by Springer. He has also written a book chapter on Gait Analysis to be published by CRC Press.
+
+Dr. Shaikh has been involved in other professional activities as well. He is one of the guest editors for the International Journal – Springer Transactions on Computational Science, XXV, 2015. He has served as the reviewer for a number of international journals including IEEE Transactions on Cybernetics, Springer – The Visual Computer, IET Image Processing, International Journal of Biometrics, International Journal of Advancements in Technology etc.
+
+He was also one of the committee members for the international conferences – ICDCN-2010; CISIM-2011, 2013; International Doctoral Symposium on Applied Computation and Security Systems (ACSS)-2014, 2015. In addition, he has reviewed papers for a number of internal conferences including ReTIS-2015, CISIM-2015, FICTA-2014, Nostradamus -2013 and ACITY-2012. Dr. Shaikh was the invited speaker at Jagiellonian University, Poland and Heritage Academy, Kolkata. He has also delivered lectures at the Faculty Development Program (FDP) organized by CSE, Government College of Engineering and Textile Technology, Berhampore, West Bengal.
+
+Apart from his professional interests, Dr. Shaikh is passionate about music. He plays the mouth organ and loves writing songs and composing music. He is also interested in digital photography. His favourite leisure activities involve playing football with his daughter and going out for long drives with his family."
+                    android:textColor="@android:color/black"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

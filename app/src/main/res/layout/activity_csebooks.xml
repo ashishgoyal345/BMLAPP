@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@android:color/white"
+        tools:context="bmu.in.bmuapp.CSEBOOKS">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/first"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view3"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@color/yellowish"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="15dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+
+                        android:letterSpacing="0.05"
+                        android:text="List of Books"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="17sp"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/first"
+            android:id="@+id/cl1"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_v2"
+                android:layout_margin="5dp"
+                android:layout_weight="0.94"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/csebook1"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:letterSpacing="0.05"
+                            android:text="Introduction to Algortihm"
+
+                            android:textColor="@android:color/black"
+                            android:paddingLeft="0dp"
+                            android:textSize="17sp"
+                            android:id="@+id/cr1"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cr1"
+                            android:textSize="12dp"
+                            android:text="by Thomas h Cormen"
+                            android:id="@+id/c2"
+                            />
+
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/c2"
+                            android:layout_marginTop="2dp"
+                            android:id="@+id/b1"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="100dp"
+                            android:text="Want to Read"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/holo_green_dark"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cl1"
+            android:id="@+id/cl2"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_v2"
+                android:layout_margin="5dp"
+                android:layout_weight="0.94"
+                android:clickable="false"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/csebook2"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:letterSpacing="0.05"
+                            android:text="Structure and Interpretation of Computer Programs "
+
+                            android:textColor="@android:color/black"
+                            android:paddingLeft="0dp"
+                            android:textSize="17sp"
+                            android:id="@+id/cr1"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cr1"
+                            android:textSize="12dp"
+                            android:text="by Harold Abelson "
+                            android:id="@+id/c2"
+                            />
+
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/c2"
+                            android:layout_marginTop="2dp"
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="100dp"
+                            android:text="Want to Read"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/holo_green_dark"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cl2"
+            android:id="@+id/cl3"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_v2"
+                android:layout_margin="5dp"
+                android:layout_weight="0.94"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/csebook3"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:letterSpacing="0.05"
+                            android:text="The C Programming Language  "
+
+                            android:textColor="@android:color/black"
+                            android:paddingLeft="0dp"
+                            android:textSize="17sp"
+                            android:id="@+id/cr1"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cr1"
+                            android:textSize="12dp"
+                            android:text="by Brian W. Kernighan  "
+                            android:id="@+id/c2"
+                            />
+
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/c2"
+                            android:layout_marginTop="2dp"
+                            android:id="@+id/b2"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="100dp"
+                            android:text="Want to Read"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/holo_green_dark"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cl3"
+            android:id="@+id/cl4"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_v2"
+                android:layout_margin="5dp"
+                android:layout_weight="0.94"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/csebook4"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:letterSpacing="0.05"
+                            android:text="The Pragmatic Programmer: From Journeyman to Master  "
+
+                            android:textColor="@android:color/black"
+                            android:paddingLeft="0dp"
+                            android:textSize="17sp"
+                            android:id="@+id/cr1"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cr1"
+                            android:textSize="12dp"
+                            android:text="by Andrew Hunt   "
+                            android:id="@+id/c2"
+                            />
+
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/c2"
+                            android:layout_marginTop="2dp"
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="100dp"
+                            android:text="Want to Read"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/holo_green_dark"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cl4"
+            android:id="@+id/cl5"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_v2"
+                android:layout_margin="5dp"
+                android:layout_weight="0.94"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/csebook5"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:letterSpacing="0.05"
+                            android:text="The Art of Computer Programming "
+
+                            android:textColor="@android:color/black"
+                            android:paddingLeft="0dp"
+                            android:textSize="17sp"
+                            android:id="@+id/cr1"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cr1"
+                            android:textSize="12dp"
+                            android:text="by Donald Ervin Knuth "
+                            android:id="@+id/c2"
+                            />
+
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/c2"
+                            android:layout_marginTop="2dp"
+                            android:id="@+id/b3"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="100dp"
+                            android:text="Want to Read"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/holo_green_dark"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cl5"
+            android:id="@+id/cl6"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_v2"
+                android:layout_margin="5dp"
+                android:layout_weight="0.94"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/csebook6"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:letterSpacing="0.05"
+                            android:text="Design Patterns: Elements of Reusable Object-Oriented Software  "
+
+                            android:textColor="@android:color/black"
+                            android:paddingLeft="0dp"
+                            android:textSize="17sp"
+                            android:id="@+id/cr1"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cr1"
+                            android:textSize="12dp"
+                            android:text="by Erich Gamma  "
+                            android:id="@+id/c2"
+                            />
+
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/c2"
+                            android:layout_marginTop="2dp"
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="100dp"
+                            android:text="Want to Read"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/holo_green_dark"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cl6"
+            android:id="@+id/cl7"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_v2"
+                android:layout_margin="5dp"
+                android:layout_weight="0.94"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/csebook7"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:letterSpacing="0.05"
+                            android:text="Introduction to the Theory of Computation   "
+
+                            android:textColor="@android:color/black"
+                            android:paddingLeft="0dp"
+                            android:textSize="17sp"
+                            android:id="@+id/cr1"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cr1"
+                            android:textSize="12dp"
+                            android:text="by Michael Sipser  "
+                            android:id="@+id/c2"
+                            />
+
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/c2"
+                            android:layout_marginTop="2dp"
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="100dp"
+                            android:text="Want to Read"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/holo_green_dark"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cl7"
+            android:id="@+id/cl8"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_v2"
+                android:layout_margin="5dp"
+                android:layout_weight="0.94"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/csebook8"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:letterSpacing="0.05"
+                            android:text="The Mythical Man-Month: Essays on Software Engineering "
+
+                            android:textColor="@android:color/black"
+                            android:paddingLeft="0dp"
+                            android:textSize="17sp"
+                            android:id="@+id/cr1"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cr1"
+                            android:textSize="12dp"
+                            android:text="by Frederick P. Brooks Jr.   "
+                            android:id="@+id/c2"
+                            />
+
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/c2"
+                            android:layout_marginTop="2dp"
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="100dp"
+                            android:text="Want to Read"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/holo_green_dark"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cl8"
+            android:id="@+id/cl9"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_v2"
+                android:layout_margin="5dp"
+                android:layout_weight="0.94"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/csebook1"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:letterSpacing="0.05"
+                            android:text="Code: The Hidden Language of Computer Hardware and Software "
+
+                            android:textColor="@android:color/black"
+                            android:paddingLeft="0dp"
+                            android:textSize="17sp"
+                            android:id="@+id/cr1"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cr1"
+                            android:textSize="12dp"
+                            android:text="by Charles Petzold "
+                            android:id="@+id/c2"
+                            />
+
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/c2"
+                            android:layout_marginTop="2dp"
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="100dp"
+                            android:text="Want to Read"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/holo_green_dark"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cl9"
+            android:id="@+id/cl10"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_v2"
+                android:layout_margin="5dp"
+                android:layout_weight="0.94"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/csebook2"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:letterSpacing="0.05"
+                            android:text="Artificial Intelligence: A Modern Approach  "
+
+                            android:textColor="@android:color/black"
+                            android:paddingLeft="0dp"
+                            android:textSize="17sp"
+                            android:id="@+id/cr1"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cr1"
+                            android:textSize="12dp"
+                            android:text="by Stuart Russell  "
+                            android:id="@+id/c2"
+                            />
+
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/c2"
+                            android:layout_marginTop="2dp"
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="100dp"
+                            android:text="Want to Read"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/holo_green_dark"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cl10"
+            android:id="@+id/cl11"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_v2"
+                android:layout_margin="5dp"
+                android:layout_weight="0.94"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/csebook3"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:letterSpacing="0.05"
+                            android:text="Code Complete  "
+
+                            android:textColor="@android:color/black"
+                            android:paddingLeft="0dp"
+                            android:textSize="17sp"
+                            android:id="@+id/cr1"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cr1"
+                            android:textSize="12dp"
+                            android:text="by Steve McConnell   "
+                            android:id="@+id/c2"
+                            />
+
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/c2"
+                            android:layout_marginTop="2dp"
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="100dp"
+                            android:text="Want to Read"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/holo_green_dark"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cl11"
+            android:id="@+id/cl12"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_v2"
+                android:layout_margin="5dp"
+                android:layout_weight="0.94"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/csebook12"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:letterSpacing="0.05"
+                            android:text="The Protocols (TCP/IP Illustrated, Volume 1)   "
+
+                            android:textColor="@android:color/black"
+                            android:paddingLeft="0dp"
+                            android:textSize="17sp"
+                            android:id="@+id/cr1"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cr1"
+                            android:textSize="12dp"
+                            android:text="by W. Richard Stevens    "
+                            android:id="@+id/c2"
+                            />
+
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/c2"
+                            android:layout_marginTop="2dp"
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="100dp"
+                            android:text="Want to Read"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/holo_green_dark"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cl12"
+            android:id="@+id/cl13"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_v2"
+                android:layout_margin="5dp"
+                android:layout_weight="0.94"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/csebook13"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:letterSpacing="0.05"
+                            android:text="Algorithms  "
+
+                            android:textColor="@android:color/black"
+                            android:paddingLeft="0dp"
+                            android:textSize="17sp"
+                            android:id="@+id/cr1"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cr1"
+                            android:textSize="12dp"
+                            android:text="by Robert Sedgewick  "
+                            android:id="@+id/c2"
+                            />
+
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/c2"
+                            android:layout_marginTop="2dp"
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="100dp"
+                            android:text="Want to Read"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/holo_green_dark"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cl13"
+            android:id="@+id/cl14"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_v2"
+                android:layout_margin="5dp"
+                android:layout_weight="0.94"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/csebook14"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:letterSpacing="0.05"
+                            android:text="Advanced Programming in the UNIX Environment  "
+
+                            android:textColor="@android:color/black"
+                            android:paddingLeft="0dp"
+                            android:textSize="17sp"
+                            android:id="@+id/cr1"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cr1"
+                            android:textSize="12dp"
+                            android:text="by W. Richard Stevens  "
+                            android:id="@+id/c2"
+                            />
+
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/c2"
+                            android:layout_marginTop="2dp"
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="100dp"
+                            android:text="Want to Read"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/holo_green_dark"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cl14"
+            android:id="@+id/cl15"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_v2"
+                android:layout_margin="5dp"
+                android:layout_weight="0.94"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:clickable="false"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/csebook15"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:letterSpacing="0.05"
+                            android:text="A Discipline of programming  "
+
+                            android:textColor="@android:color/black"
+                            android:paddingLeft="0dp"
+                            android:textSize="17sp"
+                            android:id="@+id/cr1"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cr1"
+                            android:textSize="12dp"
+                            android:text="by  Edsger W. Dijkstra  "
+                            android:id="@+id/c2"
+                            />
+
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/c2"
+                            android:layout_marginTop="2dp"
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="100dp"
+                            android:text="Want to Read"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/holo_green_dark"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cl15"
+            android:id="@+id/cl16"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_v2"
+                android:layout_margin="5dp"
+                android:layout_weight="0.94"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:clickable="false"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/csebook16"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:letterSpacing="0.05"
+                            android:text="Introduction to Automata Theory, Languages, and Computation  "
+
+                            android:textColor="@android:color/black"
+                            android:paddingLeft="0dp"
+                            android:textSize="17sp"
+                            android:id="@+id/cr1"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="false" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/cr1"
+                            android:textSize="12dp"
+                            android:text="by John E. Hopcroft    "
+                            android:id="@+id/c2"
+                            />
+
+                        <Button
+                            android:layout_width="130dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/c2"
+                            android:layout_marginTop="2dp"
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="100dp"
+                            android:text="Want to Read"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/holo_green_dark"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

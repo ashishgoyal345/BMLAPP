@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    tools:context="bmu.in.bmuapp.WelcomeActivity"
+    >
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/logo"
+        android:layout_width="190dp"
+        android:layout_height="150dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="40"
+            android:background="@color/white"
+            android:contentDescription="Student"
+            android:onClick="student"
+            android:padding="10dp"
+            android:src="@drawable/student_login_logo" />
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_weight="20"
+            android:background="@color/white"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/button2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="40"
+            android:background="@color/white"
+            android:contentDescription="Faculty"
+
+            android:foregroundGravity="right"
+            android:onClick="staff"
+            android:padding="10dp"
+            android:src="@drawable/faculty_login_logo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:text="STUDENT"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_weight="20"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:text="FACULTY"
+
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+
+
+        <ImageButton
+            android:contentDescription="Guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:foregroundGravity="right"
+            android:padding="10dp"
+            android:onClick="guest"
+            android:id="@+id/button3"
+            android:src="@drawable/guest_login_logo" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:text="GUEST" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

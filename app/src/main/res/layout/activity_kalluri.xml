@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="0.94"
+            card_view:cardBackgroundColor="#ffffff"
+            card_view:cardCornerRadius="15dp"
+            card_view:contentPadding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dr_kalluri_vinayak"
+                    app:civ_border_color="@android:color/white"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="DR. KALLURI VINAYAK"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Designation: Assistant Dean , Associate Professor"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Department:  Mechanical"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Academic Qualification: B.Tech (Mechanical Engineering) from Jawaharlal Nehru Technological University, Hyderabad. M.Tech (Machine Design) from IIT Madras, Chennai and PhD from BITS-Pilani."
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Vinayak Kalluri, Assoc. Professor in School of Engineering and Technology has joined on 1st April, 2013. He has over 10 years of experience in teaching various mechanical engineering courses, particularly in the fields of Design engineering at both the undergraduate and graduate levels. Before BML Munjal University, he was a faculty in Department of Mechanical Engineering, BITS-Pilani for more than 7 years.
+
+He did his B.Tech (Mechanical Engineering) from Jawaharlal Nehru Technological University, Hyderabad and M.Tech (Machine Design) from IIT Madras, Chennai and subsequently obtained his PhD from BITS-Pilani.
+
+In BITS-Pilani, he was Warden, Nucleus member of Student Welfare Davison, Coordinator for BITSAT and In-Charge for first degree reporting for admission to BITS Pilani, Pilani campus for five years. He has rich experience in engaging and delivering expert lectures in Product Design and Development practices to several Indian organizations like LandT Vadodara, NTPC (Ramagundam, Talcher, Farakka, Kahalgoan), THDC- Tehri, Bharat Forge etc.
+
+He is a Life member of the Indian Society for Technical Education (ISTE). His research interests are mechanical system design, new product development and rapid prototyping. He has published articles in international journals like Benchmarking-International Journal, Measuring Business Excellence and Journal of Advances in Management Research. He has participated as an organizing committee member of different international conferences. He is also the reviewer for International journals like International Journal of Production Research (IJPR), Benchmarking-International Journal (BIJ), Journal of Engineering, Design and Technology and Journal of Modelling in Management (JMM)."
+                    tools:ignore="HardcodedText" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

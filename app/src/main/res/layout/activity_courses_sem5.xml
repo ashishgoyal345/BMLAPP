@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bmu.in.bmuapp.coursesSem5">
+
+
+
+    <TextView
+        android:id="@+id/semester_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="COURSES : SEMESTER V"
+        android:textSize="20sp"/>
+
+    <Button
+        android:text="UNDERSTANDING BUSINESS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/ub"
+        android:layout_below="@+id/semester_heading"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <Button
+        android:text="SELLING, NETOTIATING AND PERSUADNG SKILLS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/snps"
+        android:layout_below="@+id/ub"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        />
+
+    <Button
+        android:text="SOFT COMPUTING AND OPTOMIZATION"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sco"
+        android:layout_below="@+id/snps"
+        android:layout_marginTop="14dp"
+        />
+
+    <Button
+        android:text="SOFTWARE ENGINEERING"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/se"
+        android:layout_below="@+id/sco"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        />
+
+    <Button
+        android:text="COMPUTER NETWORKS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cn"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/se"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <Button
+        android:text="PYTHON PROGRAMMING"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/python"
+        android:layout_below="@+id/cn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        />
+    <Button
+        android:text="INFORMATION RETRIEVAL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/information_retrieval"
+        android:layout_below="@+id/python"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        />
+
+
+</RelativeLayout>

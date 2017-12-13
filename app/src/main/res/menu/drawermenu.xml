@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Courses"
+        android:id="@+id/nav_item_inbox"
+        android:icon="@drawable/courses"/>
+
+    <item android:title="Classes"
+        android:id="@+id/nav_item_sent"
+        android:icon="@drawable/classes"/>
+
+    <item android:title="Timetable"
+        android:id="@+id/nav_item_draft"
+        android:icon="@drawable/timetable"/>
+
+
+
+    <item android:title="Extra">
+        <menu>
+            <item
+                android:title="Near By facilities"
+                android:id="@+id/nearby"
+                android:icon="@drawable/ic_menu_send"/>
+            <item
+                android:title="Fav"
+                android:icon="@drawable/ic_menu_send"/>
+        </menu>
+    </item>
+
+    <group android:id="@+id/group_settings_id">
+
+        <item android:title="Settings"
+            android:icon="@drawable/settings"/>
+        <item android:title="Logout"
+            android:icon="@drawable/logout"/>
+    </group>
+
+
+</menu>

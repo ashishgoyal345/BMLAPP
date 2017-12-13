@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context="bmu.in.bmuapp.guestMain">
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="Facilites near by Bmu"
+        android:onClick="nearby"
+        android:background="@android:color/holo_blue_light"/>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b1"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Go to BMU Website"
+        android:onClick="website"
+        />
+
+</RelativeLayout>

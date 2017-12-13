@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="0.94"
+            card_view:cardBackgroundColor="#ffffff"
+            card_view:cardCornerRadius="15dp"
+            card_view:contentPadding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dr_swati_jha"
+                    app:civ_border_color="@android:color/white"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="DR. SWATI JHA"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Designation: Assistant Professor"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Department:  ECE"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.05"
+                    android:text="Academic Qualification: Graduated from University of Rajasthan. Masters in Engineering from Maharaja Sayaji Rao University, Vadodara in Microprocessors Systems and Application (MSA). Ph.D. from Banasthali University in electronics on lasing nano-heterostructures."
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"
+                    tools:ignore="HardcodedText,UnusedAttribute" />
+
+                <TextView
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Teaching is a passion for Ms. Swati Jha. Even before she graduated from University of Rajasthan in 2002, she had firmed up her mind to pursue education as her career. She presently has over twelve years of teaching experience across various engineering colleges affiliated to University of Rajasthan, Gujarat University and Maharshi Dayanand University, Rohtak. She completed her Masters in Engineering from Maharaja Sayaji Rao University, Vadodara in Microprocessors Systems and Application (MSA). She accomplished her research work from Banasthali University in electronics on lasing nano-heterostructures. During her research work, she was associated with INUP (Indian Nanoelectronics User’s Program) and participated in the familiarization workshop on “Nanofabrication Technologies” and attended the “Hands on Training” conducted at Centre for Nano Science and Engineering (CeNSE), Indian Institute of Science, Bangalore.
+
+Apart from teaching assignments in her previous organization, she has undertaken duties like heading the student and faculty chapter of ISTE, steering the entrepreneurship development cell and directing the consultancy development center. She also has an administrative experience as head of the department for two years.
+
+To her, one of the most appealing aspects of an academic profile is the opportunity to interact with creative and young minds. To communicate various ideas and concepts to students, and to encourage them to learn and think independently, is an exhilarating experience. To get professionally trained herself and deliver better quality to her pupils she has attended Dale Carnegie’s workshop on “High Impact Teaching Skills” and has also participated in Mission10x workshop conducted by Wipro.
+
+Her teaching interests include microprocessors, digital signal processing, digital electronics and nanotechnology. She has guided minor and major projects based on microprocessors, microcontrollers and MATLAB. She is also a certified faculty to teach “Entrepreneurship” from National Entrepreneurship Network, Bangalore since 2009. She holds a certificate in “Technical Consultancy” from Consultancy Development Centre: an autonomous institution of DSIR, Ministry of Science and Technology, Govt. of India.
+
+She loves spending her leisure time with family at places of serene beauty, enjoys movies and relishes Indian cuisine."
+                    tools:ignore="HardcodedText" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>
